@@ -17,7 +17,7 @@ from matplotlib.animation import FuncAnimation
 
 
 def beta_pdf(x, a, b):
-    return (x**(a-1) * (1-x)**(b-1) * math.gamma(a + b)
+    return (x ** (a - 1) * (1 - x) ** (b - 1) * math.gamma(a + b)
             / (math.gamma(a) * math.gamma(b)))
 
 
@@ -47,15 +47,15 @@ class UpdateDist:
             return self.line,
 
         # Choose success based on exceed a threshold with a uniform pick
-        if np.random.rand(1,) < self.prob:
+        if np.random.rand(1, ) < self.prob:
             self.success += 1
         y = beta_pdf(self.x, self.success + 1, (i - self.success) + 1)
         self.line.set_data(self.x, y)
         return self.line,
 
+
 # Fixing random state for reproducibility
 np.random.seed(19680801)
-
 
 fig, ax = plt.subplots()
 ud = UpdateDist(ax, prob=0.7)
