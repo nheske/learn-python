@@ -124,9 +124,21 @@ dt = 1. / 30  # 30fps
 
 # ------------------------------------------------------------
 # set up figure and animation
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(5, 8))
+fig = plt.figure(figsize=(8, 6))
+
+# Adds subplot on position 1
+ax1 = fig.add_subplot(121, aspect='equal', autoscale_on=False, xlim=(-3.2, 3.2), ylim=(-2.4, 2.4))
+# Adds subplot on position 2
+ax2 = fig.add_subplot(122)
+
+x = np.arange(0, 10, 0.1)
+y = np.sin(x)
+ax2.plot(x,y)
+
+
+#fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(5, 8))
 #fig, (ax1, ax2) = plt.subplots(111, aspect='equal', autoscale_on=False, xlim=(-3.2, 3.2), ylim=(-2.4, 2.4))
-fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
+#fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
 #ax1 = fig.add_subplot(111, aspect='equal', autoscale_on=False,
  #                    xlim=(-3.2, 3.2), ylim=(-2.4, 2.4))
 
