@@ -11,6 +11,7 @@ Please feel free to use and modify this, but keep the above information. Thanks!
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import animation
+plt.rcParams['animation.ffmpeg_path'] = 'D:/dev/tools/ffmpeg-4.3.2-2021-02-02-full_build/bin/ffmpeg.exe'
 
 # First set up the figure, the axis, and the plot element we want to animate
 fig = plt.figure()
