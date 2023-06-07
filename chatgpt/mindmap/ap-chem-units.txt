@@ -1,0 +1,44 @@
+#prompt: break the subject of AP Chemistry into 7 units with 3 or for bulleted subtopics each
+
+- AP Chemistry Units Breakdown -
+1. Atomic Structure and Periodicity
+   - Structure of the Atom
+   - Subatomic Particles
+   - Electron Configuration
+   - Periodic Trends
+
+2. Chemical Bonding and Molecular Structure
+   - Ionic Bonding
+   - Covalent Bonding
+   - Lewis Structures
+   - Molecular Geometry
+
+3. Stoichiometry and Reactions
+   - Balancing Chemical Equations
+   - Stoichiometric Calculations
+   - Types of Reactions
+   - Reaction Stoichiometry
+
+4. Gases and Kinetics
+   - Gas Laws
+   - Kinetic Molecular Theory
+   - Collisions and Reaction Rates
+   - Rate Laws and Rate Constants
+
+5. Thermodynamics and Equilibrium
+   - Energy Changes in Reactions
+   - Entropy and Free Energy
+   - Chemical Equilibrium
+   - Le Chatelier's Principle
+
+6. Acids, Bases, and Equilibrium
+   - Acid-Base Theories
+   - pH and pOH Calculations
+   - Acid-Base Equilibria
+   - Buffer Solutions
+
+7. Organic Chemistry and Biochemistry
+   - Organic Compounds and Functional Groups
+   - Organic Reactions and Mechanisms
+   - Biochemical Processes
+   - Biomolecules (e.g., carbohydrates, proteins, lipids, nucleic acids)
