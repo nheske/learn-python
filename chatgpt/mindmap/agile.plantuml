@@ -1,0 +1,33 @@
+'http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000'
+@startwbs
+* Agile Project Planning
+** Project Goals
+*** Deliverables
+*** Objectives
+*** Success Metrics
+** Project Scope
+*** Features
+*** User Stories
+*** Prioritization
+*** Sprint Planning
+*** Backlog Refinement
+*** Sprint Review
+*** Retrospective
+** Project Team
+*** Roles and Responsibilities
+*** Skills and Expertise
+*** Communication Channels
+** Sprint Planning
+*** User Stories
+**** User Needs
+**** User Persona
+**** Acceptance Criteria
+*** Task Breakdown
+**** Assigning Tasks
+**** Effort Estimation
+**** Dependencies
+*** Estimation
+**** Story Points
+**** Time Estimation
+**** Agile Estimation Techniques
+@endwbs

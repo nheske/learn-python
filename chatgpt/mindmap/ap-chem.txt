@@ -1,0 +1,17 @@
+make a mindmap for studying for the AP Chemistry Test Preparation
+               AP Chemistry Test Preparation
+                           |
+         +-----------------+------------------+
+         |                 |                  |
+    Topics Review     Practice Questions   Note-taking
+         |                 |                  |
+   - Atomic Structure  - MCQs               - Key Concepts
+   - Chemical Bonding  - FRQs               - Formulas and Equations
+   - Stoichiometry     - Past Exams         - Definitions and Terminologies
+   - Acids and Bases   - Online Resources   - Important Reactions
+   - Thermodynamics                       - Tips and Strategies
+   - Equilibrium                           - Experimental Techniques
+   - Kinetics                              - Common Mistakes
+   - Organic Chemistry                     - Study Group/Partner
+   - Lab Experiments                       - Time Management
+                                          - Self-Assessment

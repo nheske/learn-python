@@ -1,0 +1,28 @@
+make a mind map for planning a software agile project
+
+             Agile Project Planning
+                      |
+        +-------------+--------------+
+        |             |              |
+    Project Goals  Project Scope   Project Team
+        |             |              |
+   - Deliverables    - Features     - Roles and Responsibilities
+   - Objectives      - User Stories - Skills and Expertise
+   - Success Metrics - Prioritization - Communication Channels
+                     - Sprint Planning
+                     - Backlog Refinement
+                     - Sprint Review
+                     - Retrospective
+
+                      Sprint Planning
+                              |
+          +-------------------+-------------------+
+          |                   |                   |
+    User Stories        Task Breakdown      Estimation
+          |                   |                   |
+   - User Needs     - Assigning Tasks   - Story Points
+   - User Persona   - Effort Estimation - Time Estimation
+   - Acceptance Criteria - Dependencies - Agile Estimation Techniques
+                           - Sequencing
+
+can you convert that to a plantuml work breakdown structure
