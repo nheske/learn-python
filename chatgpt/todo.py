@@ -1,4 +1,4 @@
-# write a simple python to-do application
+# prompt: write a simple python to-do application
 tasks = []
 
 def show_menu():
