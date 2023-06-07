@@ -1,0 +1,36 @@
+@startuml
+
+actor User
+
+User -> ToDoApp: Show Menu
+User --> ToDoApp: Choose 1 (Add Task)
+User -> ToDoApp: Enter Task Description
+ToDoApp -> ToDoApp: Add Task
+User <-- ToDoApp: Task Added Successfully
+
+User -> ToDoApp: Show Menu
+User --> ToDoApp: Choose 2 (View Tasks)
+ToDoApp -> ToDoApp: View Tasks
+User <-- ToDoApp: Display Tasks
+
+User -> ToDoApp: Show Menu
+User --> ToDoApp: Choose 3 (Mark Task as Complete)
+ToDoApp -> ToDoApp: View Tasks
+User <-- ToDoApp: Display Tasks
+User -> ToDoApp: Enter Task Number
+ToDoApp -> ToDoApp: Mark Task as Complete
+User <-- ToDoApp: Task Marked as Complete
+
+User -> ToDoApp: Show Menu
+User --> ToDoApp: Choose 4 (Delete Task)
+ToDoApp -> ToDoApp: View Tasks
+User <-- ToDoApp: Display Tasks
+User -> ToDoApp: Enter Task Number
+ToDoApp -> ToDoApp: Delete Task
+User <-- ToDoApp: Task Deleted
+
+User -> ToDoApp: Show Menu
+User --> ToDoApp: Choose 5 (Exit)
+ToDoApp --> User: Exiting the program...
+
+@enduml
