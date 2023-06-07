@@ -6,7 +6,7 @@ import pyvista as pv
 # Dimensions in inches
 radius = 1.0
 height = 6.0
-file_path = "cylinder.stl"
+file_path = "chatgpt/stl/cylinder.stl"
 
 # Generate cylinder
 cylinder = pv.Cylinder(center=(0, 0, 0), direction=(0, 0, 1), radius=radius, height=height)

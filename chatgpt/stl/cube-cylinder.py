@@ -7,7 +7,7 @@ import pyvista as pv
 radius = 1.0
 height = 6.0
 cube_size = 5.0
-file_path = "cylinder_on_cube.stl"
+file_path = "chatgpt/stl/cylinder_on_cube.stl"
 
 # Generate cylinder and cube
 cylinder = pv.Cylinder(center=(0, 0, height/2), direction=(0, 0, 1), radius=radius, height=height)
